@@ -16,6 +16,6 @@ jobs:
       - name: Publish to Hashnode
         uses: hashnode/github-action@v1
         with:
-          hashnode_api_key: ${{ secrets.HASHNODE_TOKEN }}
+          api_key: ${{ secrets.HASHNODE_TOKEN }}
           publication_id: ${{ secrets.HASHNODE_PUBLICATION_ID }}
           posts_directory: posts
