@@ -1,0 +1,21 @@
+name: Publish to Hashnode
+
+on:
+  push:
+    paths:
+      - "posts/**/*.md"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish to Hashnode
+        uses: hashnode/publish-action@v1
+        with:
+          hashnode_api_key: ${{ secrets.HASHNODE_TOKEN }}
+          publication_id: ${{ secrets.HASHNODE_PUBLICATION_ID }}
+          posts_directory: posts
