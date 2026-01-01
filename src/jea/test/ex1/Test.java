@@ -12,6 +12,5 @@ public class Test {
         Arrays.sort(numbers);
 
         System.out.println("Sorted array (ascending): " + Arrays.toString(numbers));
-        System.out.println("Sorted array (ascending): " + Arrays.toString(numbers));
     }
 }
