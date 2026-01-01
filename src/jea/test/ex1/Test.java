@@ -8,7 +8,7 @@ public class Test {
 
         System.out.println("Original array: " + Arrays.toString(numbers));
 
-        // Sorting the array in ascending order
+        // Sorting the array in ascending orders
         Arrays.sort(numbers);
 
         System.out.println("Sorted array (ascending): " + Arrays.toString(numbers));
