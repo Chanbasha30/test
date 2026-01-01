@@ -1,0 +1,2 @@
+Original array: [5, 2, 9, 1, 7]
+Sorted array (ascending): [1, 2, 5, 7, 9]
